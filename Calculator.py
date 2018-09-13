@@ -3,7 +3,7 @@ print("2. Substraction")
 print("3. Multiplication")
 print("4. Division")
 
-command = input("Enter the desired comman: ")
+command = int(input("Enter the desired command: "))
 
 if command == 1:
     n1 = int(input("Enter first number: "))
